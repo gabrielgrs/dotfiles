@@ -1,0 +1,22 @@
+# keybind = "cmd+t=ignore"
+
+theme = Ayu
+font-size = 16
+mouse-hide-while-typing = true
+background-opacity = 0.8
+background-blur-radius = 40
+
+font-feature=liga
+font-thicken=true
+
+shell-integration-features = true
+copy-on-select = clipboard
+focus-follows-mouse = true
+link-url = true
+
+confirm-close-surface = true
+window-decoration = true
+window-padding-x = 4
+window-padding-y = 4
+window-padding-balance = true
+cursor-invert-fg-bg = true

@@ -1,16 +1,16 @@
-# keybind = "cmd+t=ignore"
+keybind = "cmd+t=ignore"
+
+keybind = "cmd+k=text:\x1b[107;9u"
+keybind = "cmd+j=text:\x1b[106;9u"
 
 theme = Ayu
 font-size = 16
 mouse-hide-while-typing = true
-background-opacity = 0.8
-background-blur-radius = 40
 
 font-feature=liga
 font-thicken=true
 
 shell-integration-features = true
-copy-on-select = clipboard
 focus-follows-mouse = true
 link-url = true
 

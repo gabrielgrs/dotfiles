@@ -21,3 +21,5 @@ window-padding-x = 4
 window-padding-y = 4
 window-padding-balance = true
 cursor-invert-fg-bg = true
+
+macos-option-as-alt = true

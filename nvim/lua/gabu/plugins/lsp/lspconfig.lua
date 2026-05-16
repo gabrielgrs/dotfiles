@@ -56,11 +56,11 @@ return {
 				opts.desc = "Restart LSP"
 				keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts)
 
-				vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format()")
 			end,
 		})
 
 		local capabilities = cmp_nvim_lsp.default_capabilities()
+		capabilities.offsetEncoding = { "utf-8" }
 
 		local signs = { Error = " ", Warn = " ", Hint = "󰠠 ", Info = " " }
 		for type, icon in pairs(signs) do
@@ -96,8 +96,11 @@ return {
 			},
 		})
 
+		local formatter_only = { stylua = true }
 		for _, server_name in ipairs(mason_lspconfig.get_installed_servers()) do
-			vim.lsp.enable(server_name)
+			if not formatter_only[server_name] then
+				vim.lsp.enable(server_name)
+			end
 		end
 	end,
 }

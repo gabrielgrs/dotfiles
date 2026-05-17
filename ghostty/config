@@ -1,4 +1,5 @@
 keybind = "cmd+t=ignore"
+keybind = "cmd+n=ignore"
 
 font-size = 16
 mouse-hide-while-typing = true
@@ -23,3 +24,14 @@ window-padding-balance = true
 cursor-invert-fg-bg = true
 
 macos-option-as-alt = true
+
+keybind = command+digit_1=csi:49;9u
+keybind = command+digit_2=csi:50;9u
+keybind = command+digit_3=csi:51;9u
+keybind = command+digit_4=csi:52;9u
+keybind = command+digit_5=csi:53;9u
+keybind = command+digit_6=csi:54;9u
+keybind = command+digit_7=csi:55;9u
+keybind = command+digit_8=csi:56;9u
+keybind = command+digit_9=csi:57;9u
+keybind = command+digit_0=csi:48;9u

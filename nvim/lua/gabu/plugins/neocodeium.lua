@@ -5,7 +5,7 @@ return {
 		local neocodeium = require("neocodeium")
 		neocodeium.setup()
 
-		vim.keymap.set("i", "<A-f>", function()
+		vim.keymap.set("i", "<Tab>", function()
 			neocodeium.accept()
 		end)
 		vim.keymap.set("i", "<A-w>", function()

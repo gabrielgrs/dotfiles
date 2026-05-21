@@ -5,8 +5,8 @@ vim.g.have_nerd_font = true
 local keymap = vim.keymap -- for conciseness
 
 keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Show file explorer" })
-keymap.set("n", "<leader>rb", "<cmd>bufdo e<CR>", { desc = "Reload all buffers" })
-keymap.set("n", "<leader>kb", "<cmd>%bd<CR>", { desc = "Kill all buffers" })
+keymap.set("n", "<leader>br", "<cmd>bufdo e<CR>", { desc = "Buffers reload" })
+keymap.set("n", "<leader>bk", "<cmd>%bd<CR>", { desc = "Buffers Kill" })
 keymap.set("n", "<D-k>", "<cmd>move .-2<CR>==", { desc = "Move line up" })
 keymap.set("n", "<D-j>", "<cmd>move .+1<CR>==", { desc = "Move line down" })
 keymap.set("v", "<D-k>", ":move '<-2<CR>gv=gv", { desc = "Move selection up" })

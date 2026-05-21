@@ -1,7 +1,7 @@
 keybind = "cmd+t=ignore"
 keybind = "cmd+n=ignore"
 
-font-size = 16
+font-size = 14
 mouse-hide-while-typing = true
 background-opacity = 0.97
 background-blur-radius = 40
@@ -18,11 +18,11 @@ link-url = true
 
 confirm-close-surface = true
 window-decoration = true
-window-padding-x = 4
-window-padding-y = 4
+window-padding-x = 12
+window-padding-y = 12
 window-padding-balance = true
 cursor-invert-fg-bg = true
-
+macos-titlebar-style = hidden
 macos-option-as-alt = true
 
 keybind = command+digit_1=text:\x011

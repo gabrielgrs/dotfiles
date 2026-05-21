@@ -11,7 +11,9 @@ return {
 		"nvim-lua/plenary.nvim",
 	},
 	keys = {
-
 		{ "<leader>lg", "<cmd>LazyGit<cr>", desc = "Open Layz Git" },
 	},
+	config = function()
+		vim.g.lazygit_floating_window_scaling_factor = 0.95
+	end,
 }

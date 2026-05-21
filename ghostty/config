@@ -1,7 +1,7 @@
 keybind = "cmd+t=ignore"
 keybind = "cmd+n=ignore"
 
-font-size = 14
+font-size = 13
 mouse-hide-while-typing = true
 background-opacity = 0.97
 background-blur-radius = 40

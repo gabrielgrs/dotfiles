@@ -1,13 +1,12 @@
 gui:
-  theme:
-    activeBorderColor:
-      - green
-      - bold
+  showFileTree: false
+  showCommandLog: false
+  sidePanelWidth: 0.25
+  showBottomLine: false
 
 git:
-  paging:
-    colorArg: always
-    pager: delta --dark --paging=never
+  pagers:
+    - colorArg: always
 
 os:
   editPreset: "nvim"

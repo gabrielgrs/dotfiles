@@ -68,6 +68,21 @@ return {
 			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 		end
 
+		vim.diagnostic.config({
+			virtual_text = {
+				prefix = "●",
+				source = "if_many",
+			},
+			signs = true,
+			underline = true,
+			update_in_insert = false,
+			severity_sort = true,
+			float = {
+				border = "rounded",
+				source = true,
+			},
+		})
+
 		-- Global defaults for all servers
 		vim.lsp.config("*", { capabilities = capabilities })
 

@@ -12,6 +12,7 @@ keymap.set("n", "<D-j>", "<cmd>move .+1<CR>==", { desc = "Move line down" })
 keymap.set("v", "<D-k>", ":move '<-2<CR>gv=gv", { desc = "Move selection up" })
 keymap.set("v", "<D-j>", ":move '>+1<CR>gv=gv", { desc = "Move selection down" })
 keymap.set("n", "<ESC>", ":nohl<CR>", { desc = "Clear search highlights" })
+keymap.set("n", "qq", "<cmd>qa<CR>", { desc = "Quit Neovim" })
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" })                   -- split window vertically

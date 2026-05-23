@@ -14,6 +14,17 @@ return {
   keys = {
     { "<leader>pe", "<cmd>Neotree toggle reveal<CR>", desc = "Toggle file tree" },
     { "<leader>pE", "<cmd>Neotree focus<CR>",         desc = "Focus file tree" },
+    {
+      "<leader>e",
+      function()
+        if vim.bo.filetype == "neo-tree" then
+          vim.cmd("wincmd p")
+        else
+          vim.cmd("Neotree focus reveal")
+        end
+      end,
+      desc = "Toggle focus between buffer and file tree",
+    },
   },
   opts = {
     close_if_last_window = true,

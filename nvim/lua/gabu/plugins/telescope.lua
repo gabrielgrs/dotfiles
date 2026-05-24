@@ -6,6 +6,15 @@ return {
   },
 
   config = function()
+    vim.api.nvim_create_autocmd("User", {
+      pattern = "TelescopeFindPre",
+      callback = function()
+        if package.loaded["mini.files"] then
+          MiniFiles.close()
+        end
+      end,
+    })
+
     require("telescope").setup({})
 
     local builtin = require("telescope.builtin")

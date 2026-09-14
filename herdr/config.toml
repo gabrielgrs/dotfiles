@@ -1,0 +1,35 @@
+[keys]
+prefix = "ctrl+a"
+new_tab = "prefix+t"
+new_workspace = "prefix+n"
+next_tab = "prefix+l"
+previous_tab = "prefix+h"
+rename_tab = "prefix+comma"
+next_workspace = "prefix+j"
+previous_workspace = "prefix+k"
+goto = "prefix+s"
+next_agent = "prefix+a"
+settings = "prefix+slash"
+new_worktree = []
+
+[[keys.command]]              # lazygit: bare popup (no plugin config layering/AI commit)
+key = "prefix+g"
+type = "popup"
+command = "lazygit"
+width = "95%"
+height = "95%"
+
+[[keys.command]]              # lazygit: open in its own tab
+key = "prefix+shift+g"
+type = "plugin_action"
+command = "herdr-lazygit.open-tab"
+
+[ui.toast]
+delivery = "herdr"
+
+[ui]
+show_agent_labels_on_pane_borders = false
+
+[theme]
+name = "tokyo-night"
+auto_switch = false

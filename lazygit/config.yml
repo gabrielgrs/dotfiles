@@ -3,10 +3,9 @@ gui:
   showCommandLog: false
   sidePanelWidth: 0.25
   showBottomLine: false
-
 git:
-  pagers:
+  diffRenderers:
     - colorArg: always
-
+      type: rawGit
 os:
   editPreset: "nvim"

@@ -2,3 +2,4 @@
 *.bak.*
 *.sock
 .tmp-install-*/
+session.json

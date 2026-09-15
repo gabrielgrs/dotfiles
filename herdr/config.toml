@@ -1,3 +1,4 @@
+onboarding = false
 [keys]
 prefix = "ctrl+a"
 new_tab = "prefix+t"
@@ -9,7 +10,8 @@ next_workspace = "prefix+j"
 previous_workspace = "prefix+k"
 goto = "prefix+s"
 next_agent = "prefix+a"
-settings = "prefix+slash"
+settings = "prefix+p"
+split_vertical = "prefix+slash"
 new_worktree = []
 
 [[keys.command]]              # lazygit: bare popup (no plugin config layering/AI commit)
@@ -30,6 +32,7 @@ delivery = "herdr"
 [ui]
 show_agent_labels_on_pane_borders = false
 
+agent_panel_sort = "priority"
 [theme]
-name = "tokyo-night"
+name = "rose-pine"
 auto_switch = false

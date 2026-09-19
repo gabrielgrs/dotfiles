@@ -36,3 +36,6 @@ agent_panel_sort = "priority"
 [theme]
 name = "rose-pine"
 auto_switch = false
+
+[experimental]
+kitty_graphics = true

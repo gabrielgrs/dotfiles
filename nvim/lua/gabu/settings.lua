@@ -35,16 +35,11 @@ keymap.set("n", "<right>", '<cmd>echo "Use l to move!!"<CR>')
 keymap.set("n", "<up>", '<cmd>echo "Use k to move!!"<CR>')
 keymap.set("n", "<down>", '<cmd>echo "Use j to move!!"<CR>')
 
-keymap.set("n", "<C-h>", "<C-w><C-h>", { desc = "Move focus to the left window" })
-keymap.set("n", "<C-l>", "<C-w><C-l>", { desc = "Move focus to the right window" })
 keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "Move focus to the lower window" })
 keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
--- tmux navigator
-keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "Window left" })
-keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "Window right" })
-keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", { desc = "Window down" })
-keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", { desc = "Window up" })
+keymap.set("n", "<C-h>", "<cmd>bprevious<CR>", { desc = "Previous buffer" })
+keymap.set("n", "<C-l>", "<cmd>bnext<CR>", { desc = "Next buffer" })
 
 -- NOTE: OPTIONS
 local opt = vim.opt

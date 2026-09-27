@@ -10,7 +10,7 @@ background-blur-radius = 40
 font-feature=liga
 font-thicken=true
 
-theme = Catppuccin Mocha
+theme = Atom
 
 shell-integration-features = true
 copy-on-select = clipboard

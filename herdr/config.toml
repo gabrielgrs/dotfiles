@@ -35,7 +35,7 @@ prompt_new_tab_name = false
 
 agent_panel_sort = "priority"
 [theme]
-name = "rose-pine"
+name = "vesper"
 auto_switch = false
 
 [experimental]

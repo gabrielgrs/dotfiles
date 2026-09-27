@@ -3,9 +3,35 @@ gui:
   showCommandLog: false
   sidePanelWidth: 0.25
   showBottomLine: false
+  # Catppuccin Mocha (blue) — https://github.com/catppuccin/lazygit
+  theme:
+    activeBorderColor:
+      - "#89b4fa"
+      - bold
+    inactiveBorderColor:
+      - "#a6adc8"
+    optionsTextColor:
+      - "#89b4fa"
+    selectedLineBgColor:
+      - "#313244"
+    cherryPickedCommitBgColor:
+      - "#45475a"
+    cherryPickedCommitFgColor:
+      - "#89b4fa"
+    unstagedChangesColor:
+      - "#f38ba8"
+    defaultFgColor:
+      - "#cdd6f4"
+    searchingActiveBorderColor:
+      - "#f9e2af"
+  authorColors:
+    "*": "#b4befe"
 git:
-  diffRenderers:
+  pagers:
     - colorArg: always
-      type: rawGit
+      pager: >-
+        delta --dark --paging=never --syntax-theme="Catppuccin Mocha" --hunk-header-style=omit
+        --minus-style='syntax "#34293a"' --minus-emph-style='bold syntax "#53394c"'
+        --plus-style='syntax "#2c3239"' --plus-emph-style='bold syntax "#404f4a"'
 os:
   editPreset: "nvim"

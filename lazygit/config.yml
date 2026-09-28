@@ -27,11 +27,9 @@ gui:
   authorColors:
     "*": "#b4befe"
 git:
-  pagers:
+  diffRenderers:
     - colorArg: always
-      pager: >-
-        delta --dark --paging=never --syntax-theme="Catppuccin Mocha" --hunk-header-style=omit
-        --minus-style='syntax "#34293a"' --minus-emph-style='bold syntax "#53394c"'
-        --plus-style='syntax "#2c3239"' --plus-emph-style='bold syntax "#404f4a"'
+      command: >-
+        delta --dark --paging=never --syntax-theme="Catppuccin Mocha" --hunk-header-style=omit --minus-style='syntax "#34293a"' --minus-emph-style='bold syntax "#53394c"' --plus-style='syntax "#2c3239"' --plus-emph-style='bold syntax "#404f4a"'
 os:
   editPreset: "nvim"

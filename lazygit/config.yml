@@ -30,6 +30,6 @@ git:
   diffRenderers:
     - colorArg: always
       command: >-
-        delta --dark --paging=never --syntax-theme="Catppuccin Mocha" --hunk-header-style=omit --minus-style='syntax "#34293a"' --minus-emph-style='bold syntax "#53394c"' --plus-style='syntax "#2c3239"' --plus-emph-style='bold syntax "#404f4a"'
+        delta --dark --paging=never --side-by-side --syntax-theme="Catppuccin Mocha" --hunk-header-style=omit --minus-style='syntax "#34293a"' --minus-emph-style='bold syntax "#53394c"' --plus-style='syntax "#2c3239"' --plus-emph-style='bold syntax "#404f4a"' --line-numbers --line-numbers-zero-style='"#6c7086"' --line-numbers-minus-style='"#6c7086"' --line-numbers-plus-style='"#6c7086"' --line-numbers-left-style='"#45475a"' --line-numbers-right-style='"#45475a"' --line-numbers-left-format='{nm:>3}  ' --line-numbers-right-format='{np:>3}  '
 os:
   editPreset: "nvim"

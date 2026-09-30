@@ -12,6 +12,10 @@ goto = "prefix+s"
 next_agent = "prefix+a"
 settings = "prefix+p"
 split_vertical = "prefix+slash"
+focus_pane_left = "prefix+left"
+focus_pane_down = "prefix+down"
+focus_pane_up = "prefix+up"
+focus_pane_right = "prefix+right"
 new_worktree = []
 
 [[keys.command]]              # lazygit: bare popup (no plugin config layering/AI commit)

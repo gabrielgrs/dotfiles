@@ -10,7 +10,8 @@ background-opacity = 0.85
 background-blur-radius = 100
 
 font-feature=liga
-font-thicken=true
+font-thicken = true
+font-thicken-strength = 128
 
 theme = Atom
 

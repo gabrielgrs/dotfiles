@@ -23,24 +23,24 @@ return {
 
 		local custom_theme = {
 			normal = {
-				a = { fg = mocha.base, bg = mocha.blue, gui = "bold" },
+				a = { fg = mocha.base, bg = mocha.blue },
 				b = { fg = mocha.text, bg = mocha.surface1 },
 				c = { fg = mocha.subtext1, bg = mocha.mantle },
 			},
 			insert = {
-				a = { fg = mocha.base, bg = mocha.green, gui = "bold" },
+				a = { fg = mocha.base, bg = mocha.green },
 				b = { fg = mocha.text, bg = mocha.surface1 },
 			},
 			visual = {
-				a = { fg = mocha.base, bg = mocha.mauve, gui = "bold" },
+				a = { fg = mocha.base, bg = mocha.mauve },
 				b = { fg = mocha.text, bg = mocha.surface1 },
 			},
 			replace = {
-				a = { fg = mocha.base, bg = mocha.red, gui = "bold" },
+				a = { fg = mocha.base, bg = mocha.red },
 				b = { fg = mocha.text, bg = mocha.surface1 },
 			},
 			command = {
-				a = { fg = mocha.base, bg = mocha.peach, gui = "bold" },
+				a = { fg = mocha.base, bg = mocha.peach },
 				b = { fg = mocha.text, bg = mocha.surface1 },
 			},
 			inactive = {

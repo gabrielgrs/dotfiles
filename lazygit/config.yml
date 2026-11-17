@@ -2,6 +2,8 @@ gui:
   showFileTree: true
   showCommandLog: false
   sidePanelWidth: 0.25
+  expandFocusedSidePanel: true
+  expandedSidePanelWeight: 3
   showBottomLine: false
   # Catppuccin Mocha (blue) — https://github.com/catppuccin/lazygit
   theme:

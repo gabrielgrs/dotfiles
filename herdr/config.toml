@@ -18,12 +18,10 @@ focus_pane_up = "prefix+up"
 focus_pane_right = "prefix+right"
 new_worktree = []
 
-[[keys.command]]              # lazygit: bare popup (no plugin config layering/AI commit)
+[[keys.command]]              # lazygit: bare zoomed pane (no plugin config layering/AI commit)
 key = "prefix+g"
-type = "popup"
+type = "pane"
 command = "lazygit"
-width = "95%"
-height = "95%"
 
 [[keys.command]]              # lazygit: open in its own tab
 key = "prefix+shift+g"

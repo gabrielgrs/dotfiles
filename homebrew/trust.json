@@ -1,0 +1,6 @@
+{
+  "trustedcasks": [
+    "anomalyco/tap/hex",
+    "sheprd-labs/tap/sheprd"
+  ]
+}
